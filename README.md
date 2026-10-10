@@ -11,6 +11,10 @@
 [![Offline](https://img.shields.io/badge/offline-capable-2ea44f)](#)
 [![License](https://img.shields.io/badge/License-MIT-2ea44f.svg)](LICENSE)
 
+### 🔗 在线打开（无需下载）
+
+**<https://htbjiangnan.github.io/bfzy-power-calculator/>**
+
 </div>
 
 ---
@@ -70,16 +74,26 @@ flowchart LR
 
 ## 快速开始
 
+**方式一：在线直接用（推荐）**
+
+打开 <https://htbjiangnan.github.io/bfzy-power-calculator/> —— 手机、电脑浏览器都能开，不用下载。
+
+**方式二：离线使用**
+
 1. 下载 `index.html`
 2. **双击**，用浏览器打开 —— 不需要联网，也不需要服务器
 
-## 部署到 GitHub Pages（可选）
+## 在线托管说明
 
-仓库 `Settings → Pages → Source` 选择 `main` 分支的根目录，保存后访问：
+本仓库已启用 **GitHub Pages**（`main` 分支根目录），推送后自动发布：
 
-```
-https://<你的用户名>.github.io/<仓库名>/
-```
+| 项 | 值 |
+|---|---|
+| 在线地址 | <https://htbjiangnan.github.io/bfzy-power-calculator/> |
+| 构建来源 | `main` 分支根目录的 `index.html` |
+| 缓存 | 约 10 分钟（`Cache-Control: max-age=600`），更新后稍等即可看到 |
+
+> Fork 本仓库后，在 `Settings → Pages` 里选 `main` 分支根目录即可得到自己的在线地址。
 
 ## 目录结构
 
